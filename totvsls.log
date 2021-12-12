@@ -1,0 +1,28 @@
+File verbosity level: 9
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2021-11-30 21:28:39.648 (   0.008s) [                ]             loguru.cpp:755   INFO| Logging to 'totvsls.log', mode: 'w', verbosity: 9
+(   0.008s) [main thread     ]             loguru.cpp:591   | arguments: C:\\Users\\Thiago\ Meschiatti\\.vscode\\extensions\\totvs.tds-monitor-0.0.7/node_modules/@totvs/tds-ls/bin/windows/advpls.exe --language-server --log-file=totvsls.log --record=totvsls
+(   0.008s) [main thread     ]             loguru.cpp:594   | Current dir: z:\OneDrive\Estudos\Angular\crud-angular-spring\crud-angular
+(   0.009s) [main thread     ]             loguru.cpp:596   | stderr verbosity: -3
+(   0.009s) [main thread     ]             loguru.cpp:597   | -----------------------------------
+(   0.386s) [querydb         ]msg_lsp_initialize_requ:505   | Start Running initialize
+(   0.386s) [querydb         ]msg_lsp_initialize_requ:511   | Init parameters: {"compilationDatabaseCommand":"","compilationDatabaseDirectory":"","cacheDirectory":"","cacheFormat":"json","resourceDirectory":"","discoverSystemIncludes":true,"extraClangArguments":[],"progressReportFrequencyMs":500,"emitQueryDbBlocked":false,"emitInactiveRegions":false,"showDocumentLinksOnIncludes":true,"codeLens":{"localVariables":true},"completion":{"enableSnippets":true,"detailedLabel":false,"dropOldRequests":true,"filterAndSort":true,"includeMaxPathSize":30,"includeSuffixWhitelist":[".h",".hpp",".hh",".ch"],"includeBlacklist":[],"includeWhitelist":[]},"formatting":{"enabled":true},"diagnostics":{"blacklist":[],"whitelist":[],"frequencyMs":0,"onParse":true,"onType":true},"highlight":{"enabled":false,"blacklist":[],"whitelist":[]},"index":{"attributeMakeCallsToCtor":true,"blacklist":[],"whitelist":[],"comments":2,"enabled":true,"logSkippedPaths":false,"threads":0},"workspaceSymbol":{"maxNum":1000,"sort":true},"xref":{"maxNum":2000},"enableIndexOnDidChange":false}
+(   0.386s) [querydb         ]msg_lsp_initialize_requ:519   | [querydb] Initialize in directory z:/onedrive/estudos/angular/crud-angular-spring/crud-angular with uri file:///z%3A/OneDrive/Estudos/Angular/crud-angular-spring/crud-angular
+(   0.387s) [querydb         ]msg_lsp_initialize_requ:576   | Using -resource-dir=z:/onedrive/estudos/angular/crud-angular-spring/crud-angular/default_resource_directory
+(   0.387s) [querydb         ]msg_lsp_initialize_requ:579   | Send initialization before starting indexers, so we don't send a status update too early.
+(   0.387s) [querydb         ]msg_lsp_initialize_requ:599   | Set project root.
+(   0.387s) [stdout          ]               timer.cc:41    | [e2e] Running initialize took 1.1645 ms
+(   0.387s) [querydb         ]               timer.cc:41    | compile_commands.json advpllang time took 0.0 ms
+(   0.388s) [querydb         ]               timer.cc:41    | compile_commands.json our time took 0.1 ms
+(   0.388s) [querydb         ]               timer.cc:41    | [perf] Loaded compilation entries (0 files) took 0.782 ms
+(   0.388s) [querydb         ]msg_lsp_initialize_requ:630   | Starting 3 indexers
+(   0.391s) [querydb         ]               timer.cc:41    | [perf] Dispatched initial index requests took 0.6 ms
+(   0.392s) [querydb         ]msg_lsp_initialize_requ:651   | End Running initialize
+(   0.392s) [querydb         ]msg_lsp_initialized_not:20    | Got Initialized Notification
+(   0.392s) [stdout          ]               timer.cc:41    | [e2e] Running  took 0.20 ms
+(   1.443s) [scan_includes   ]               timer.cc:41    | [perf] Scanning for includes took 1052.1051264 ms
+(3849.883s) [querydb         ]msg_lsp_shutdown_reques:26    | Start Running shutdown
+(3849.887s) [stdout          ]               timer.cc:41    | [e2e] Running shutdown took 6.6840 ms
+(3849.887s) [querydb         ]msg_lsp_shutdown_reques:30    | End Running shutdown
+(3849.896s) [querydb         ]msg_lsp_exit_notificati:18    | Exiting; got exit message
+(3849.964s) [querydb         ]             loguru.cpp:471   | atexit
